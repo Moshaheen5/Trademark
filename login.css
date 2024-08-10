@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --light-color:#f6f5f2;
+    --bg-color:#f4f4f4;
+    --button-color:blue;
+    --light-blue-color: #EDF1F3;
+    --color-gray:gray;
+}
+a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.navbar{
+    background-color: var(--light-color);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+    padding-block: 20px;
+    z-index: 99999;
+}
+.navbar h1{
+    font-family: "Pacifico", cursive;
+    font-size: 35px;
+}
+.navbar ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}.navbar ul a {
+    color: black;
+    font-size: 25px;
+    font-weight: 400;
+}
+.navbar ul a:hover{
+    color: blue;
+}
+.navbar a i {
+    color: black;
+    font-size: 22px;
+}
+.tolog{
+    background-color: var(--button-color);
+    padding: 15px 25px;
+    color: white;
+    border-radius: 8px;
+}
+.all{
+    width: 100%;
+    padding-block: 40px;
+}
+.container{
+    width: 800px;
+    margin: auto;
+    background-color: var(--bg-color);
+    padding-block: 25px;
+
+}
+.container .hold{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.container h3{
+    font-family: "Pacifico", cursive;
+    margin-block: 30px;
+    font-size: 32px;
+    text-align: center;
+}
+.container .hold div{
+    display: flex;
+    justify-content: space-between;
+}
+.container .hold div input:focus{
+    border-bottom:  1px solid var(--button-color);
+    margin-right: 0px;
+    outline: none;
+}
+.container .hold div input{
+    width: 80%;
+    height: 30px;
+    background-color: transparent;
+    padding-left: 10px;
+    border: 0;
+    border-bottom:  1px solid var(--button-color);
+    display: block;
+}
+.container .hold p{
+    font-size: 16px;
+    width: 100%;
+    margin:5px 0 40px 0;
+}
+.container .hold .input.is-invalid {
+    box-shadow: none !important;
+    border-color: red !important;
+}
+.container .hold .input.is-valid {
+    box-shadow: none !important;
+    border-color: green!important;
+}
+.container .hold label{
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+.container button{
+    color: white;
+    width: 120px;
+    display: block;
+    margin: auto;
+    background-color: var(--button-color);
+    height: 45px;
+    border:solid var(--button-color) 1px;
+    border-radius: 10px;
+} 
+.container .m{
+    color: black;
+    font-size: 24px;
+    margin-left: 35%;
+    display: block;
+    margin-top: 25px;
+    color: red;
+}

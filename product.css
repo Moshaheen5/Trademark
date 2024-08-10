@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --light-color:#f6f5f2;
+    --bg-color:white;
+    --button-color:blue;
+    --light-blue-color: #EDF1F3;
+    --color-gray:gray;
+}
+a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.navbar{
+    background-color: var(--light-color);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+    padding-block: 20px;
+    z-index: 99999;
+}
+.navbar h1{
+    font-family: "Pacifico", cursive;
+    font-size: 40px;
+}
+.navbar ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.navbar ul a {
+    color: black;
+    font-size: 25px;
+    font-weight: 400;
+    
+}
+.navbar ul a:hover{
+    color: blue;
+}
+.navbar a i {
+    color: black;
+    font-size: 22px;
+}
+.tolog{
+    background-color: var(--button-color);
+    padding: 15px 25px;
+    color: white;
+    border-radius: 8px;
+}
+#tolog{
+    background-color: transparent;
+    color: black;
+    font-size: 20px;
+}
+#tolog span{
+    background-color: transparent;
+    color: black;
+    font-size: 20px;
+}
+.product .detail .name .shop div{
+    width: 210px;
+    display: flex;
+    justify-content: space-between;
+}
+.product .detail .name .shop div input{
+    width: 150px;
+    padding-left: 47px;
+}
+.product .detail .name .shop div span{
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.product{
+    width: 100%;
+    margin: auto;
+    padding: 25px;
+}
+.product .detail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    margin: auto;
+}
+.product .detail .img{
+    border-radius: 10px;
+}
+.product .detail .name{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+.product .detail .name h2{
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: var(--button-color);
+}
+.product .detail .name h4{
+    margin-bottom: 35px;
+}
+.product .detail .name h4 span{
+    color: var(--button-color);
+}
+.product .detail .name p {
+    font-size: 22px;
+    width: 600px;
+    line-height: 1.8rem;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+.product .detail .name .inname{
+    font-size: 34px;
+}
+.product .detail .name p span{
+    color: black;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+
+

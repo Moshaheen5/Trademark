@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You for Your Purchase!</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,500;1,400&family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./final.css">
+</head>
+<body>
+    <div class="navbar">
+        <h1>TradeMark</h1>
+        <span id="tolog" class="tolog"></span>
+        <ul>
+          <li><a href="./home.html">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="./categories.html">Categories</a></li>
+          <li><a href="#contact"> Contact Us</a></li>
+      </ul>
+        <a href="./cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+        <span id="logout" class="tolog"><a href="./login.html">Logout</a></span>
+
+    </div>
+    <div class="container">
+        <div class="header">
+            <h1>Thank You for Your Purchase!</h1>
+            <p>Your order has been successfully placed.</p>
+        </div>
+        <div class="summary">
+            <h2>Order Summary</h2>
+            <p>Order Number: #123456789</p>
+            <p>Order Date: June 21, 2024</p>
+            <p id="money"></p>
+        </div>
+        <div class="actions">
+            <button onclick="location.href='categories.html'">Continue Shopping</button>
+            <button onclick="location.href='order-history.html'">View Order History</button>
+        </div>
+        <div class="footer">
+            <p>If you have any questions, please <a href="home.html/#contact">contact us</a>.</p>
+        </div>
+    </div>
+    <script src="./final.js"></script>
+</body>
+</html>
